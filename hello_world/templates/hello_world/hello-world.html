@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+
+<p>{{ field_first }}</p>
+
+<ul>
+    {% for field_second in fields_second %}
+        <li>{{ field_second }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
